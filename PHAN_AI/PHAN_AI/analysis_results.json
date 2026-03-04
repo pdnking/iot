@@ -1,0 +1,35 @@
+{
+    "total_detections": 2,
+    "unhealthy_crops_paths": [
+        "unhealthy_crops\\IMG_20240127_213853_761-removebg-preview_png.rf.a9e121a2d67b57b1fbec8daf68046991_unhealthy_0.jpg",
+        "unhealthy_crops\\IMG_20240127_213853_761-removebg-preview_png.rf.a9e121a2d67b57b1fbec8daf68046991_unhealthy_1.jpg"
+    ],
+    "detections": [
+        {
+            "id": 2,
+            "label": "unhealthy",
+            "confidence": 0.8769732713699341,
+            "bbox": [
+                205,
+                140,
+                299,
+                249
+            ],
+            "image_path": "N/A",
+            "timestamp": "22119.093"
+        },
+        {
+            "id": 4,
+            "label": "unhealthy",
+            "confidence": 0.7886708974838257,
+            "bbox": [
+                256,
+                261,
+                339,
+                320
+            ],
+            "image_path": "N/A",
+            "timestamp": "22119.093"
+        }
+    ]
+}

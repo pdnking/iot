@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-05-27T23:36:35.383368",
+  "source": "C:/Users/Admin/Downloads/Pechay Crop Cultivation.v2i.yolov11/test/images/IMG_20240127_135738-removebg-preview_png.rf.f9a93dfb9e51c86cded92dd7665a9f9d.jpg",
+  "total_detections": 7,
+  "statistics": {
+    "not-mature": 4,
+    "unhealthy": 3
+  },
+  "detections": [
+    {
+      "label": "not-mature",
+      "confidence": 0.939,
+      "bbox": [
+        352,
+        148,
+        494,
+        313
+      ],
+      "center": [
+        423,
+        230
+      ]
+    },
+    {
+      "label": "not-mature",
+      "confidence": 0.916,
+      "bbox": [
+        346,
+        325,
+        579,
+        511
+      ],
+      "center": [
+        462,
+        418
+      ]
+    },
+    {
+      "label": "not-mature",
+      "confidence": 0.886,
+      "bbox": [
+        89,
+        308,
+        245,
+        511
+      ],
+      "center": [
+        167,
+        409
+      ]
+    },
+    {
+      "label": "not-mature",
+      "confidence": 0.866,
+      "bbox": [
+        34,
+        211,
+        234,
+        334
+      ],
+      "center": [
+        134,
+        272
+      ]
+    },
+    {
+      "label": "unhealthy",
+      "confidence": 0.74,
+      "bbox": [
+        346,
+        430,
+        433,
+        511
+      ],
+      "center": [
+        389,
+        470
+      ]
+    },
+    {
+      "label": "unhealthy",
+      "confidence": 0.698,
+      "bbox": [
+        116,
+        445,
+        183,
+        512
+      ],
+      "center": [
+        149,
+        478
+      ]
+    },
+    {
+      "label": "unhealthy",
+      "confidence": 0.688,
+      "bbox": [
+        161,
+        307,
+        228,
+        394
+      ],
+      "center": [
+        194,
+        350
+      ]
+    }
+  ],
+  "unhealthy_crops_saved": 3,
+  "unhealthy_paths": [
+    "unhealthy_crops\\IMG_20240127_135738-removebg-preview_png.rf.f9a93dfb9e51c86cded92dd7665a9f9d_unhealthy_0.jpg",
+    "unhealthy_crops\\IMG_20240127_135738-removebg-preview_png.rf.f9a93dfb9e51c86cded92dd7665a9f9d_unhealthy_1.jpg",
+    "unhealthy_crops\\IMG_20240127_135738-removebg-preview_png.rf.f9a93dfb9e51c86cded92dd7665a9f9d_unhealthy_2.jpg"
+  ]
+}

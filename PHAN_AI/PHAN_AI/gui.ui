@@ -1,0 +1,31 @@
+from tkinter import *
+from tkinterdnd2 import DND_FILES, TkinterDnD
+from PIL import Image, ImageTk
+
+def drop(event):
+    file_path = event.data
+    if file_path:
+        # Xử lý đường dẫn nếu có dấu ngoặc kép
+        file_path = file_path.strip('{}')
+        img = Image.open(file_path)
+        img = img.resize((300,300))
+        img_tk = ImageTk.PhotoImage(img)
+        label_img.config(image=img_tk)
+        label_img.image = img_tk
+        label_result.config(text="Ảnh đã được thả vào", fg="green")
+
+root = TkinterDnD.Tk()
+root.title("Kéo thả ảnh vào")
+root.geometry("400x450")
+
+label_img = Label(root)
+label_img.pack(pady=20)
+
+label_result = Label(root, text="Kéo thả file ảnh vào đây")
+label_result.pack()
+
+# Đăng ký vùng nhận file thả
+root.drop_target_register(DND_FILES)
+root.dnd_bind('<<Drop>>', drop)
+
+root.mainloop()

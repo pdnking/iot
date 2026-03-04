@@ -1,0 +1,10 @@
+{
+  "MODEL_PATH": "weights/best.pt",
+  "TELEGRAM_BOT_TOKEN": "YOUR_BOT_TOKEN_HERE",
+  "TELEGRAM_CHAT_ID": "YOUR_CHAT_ID_HERE",
+  "IMAGE_FOLDER": "test_images",
+  "OUTPUT_DIR": "unhealthy_crops",
+  "CONFIDENCE_THRESHOLD": 0.3,
+  "IOU_THRESHOLD": 0.6,
+  "MAX_DETECTIONS": 100
+}

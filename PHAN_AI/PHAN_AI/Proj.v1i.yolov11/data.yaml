@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['healthy', 'mature', 'not-mature', 'unhealthy']
+
+roboflow:
+  workspace: misxy
+  project: proj-ylpfm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/misxy/proj-ylpfm/dataset/1
